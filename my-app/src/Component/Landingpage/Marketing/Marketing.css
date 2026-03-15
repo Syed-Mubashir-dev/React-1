@@ -1,0 +1,235 @@
+.Marketing {
+    height: 425px;
+}
+
+.Flex{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 40px;
+}
+
+.position{
+  position: relative;
+}
+.position img {
+  height: 230px;
+}
+
+.position-box{
+    background-color: #F5F7FA;
+    width: fit-content;
+    padding: 13px 28px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 25px;
+    bottom: -40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+.position-box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.center .different-p{
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.position-box .Main-paragraph{
+  font-size: 13px;
+  font-weight: 500;
+  color:#717171 ;
+}
+
+.position-box p {
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #4CAF4F;
+  margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width:1050px) {
+.center .different-p {
+    font-size: 12px;
+}
+  
+}
+
+@media only screen and (max-width:1000px) {
+   .Flex {
+    gap: 15px;
+}
+.position img {
+    height: 220px;
+}
+.position-box {
+    padding: 12px 26px;
+    left: 19px;
+    bottom: -49px;
+}
+  
+}
+
+@media only screen and (max-width: 900px){
+  .position img {
+        height: 195px;
+    }
+    .position-box .Main-paragraph {
+    font-size: 10px;
+}
+    .position-box {
+        padding: 11px 29px;
+        left: 22px;
+        bottom: -37px;
+    }
+}
+
+@media only screen and (max-width : 810px){
+  .center h2 {
+    font-size: 29px;
+}
+.center .different-p {
+      font-size: 11px;
+    }
+
+.position img {
+        height: 177px;
+    }
+.position-box {
+        padding: 7px 20px;
+        left: 19px;
+        bottom: -32px;
+    }
+}
+
+@media only screen and (max-width:720px){
+      .center h2 {
+        font-size: 25px;
+    }
+    .center .different-p {
+        font-size: 10px;
+    }
+    .position img {
+        height: 160px;
+    }
+    .position-box .Main-paragraph {
+        font-size: 8px;
+    }
+    .position-box p {
+    font-size: 10px;
+}
+    .position-box {
+        left: 23px;
+    }
+    .secondlast h1 {
+    line-height: 50px;
+    font-size: 2.4rem;
+}
+    .btn-2 {
+        padding: 12px 17px;
+    }
+
+}
+
+@media only screen and (max-width:650px){
+        .center .different-p {
+        font-size: 8px;
+    }
+    .Marketing {
+    height: 307px;
+}
+    .position img {
+        height: 138px;
+    }
+    .Flex {
+        gap: 8px;
+    }
+    .position-box {
+        padding: 6px 11px;
+        left: 18px;
+        bottom: -30px;
+    }
+    .position-box p {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width :500px){
+    .center h2 {
+        font-size: 22px;
+    }
+    .center .different-p {
+        font-size: 7px;
+    }
+    .position img {
+        height: 110px;
+    }
+    .position-box .Main-paragraph {
+        font-size: 5px;
+    }
+     .position-box p {
+        font-size: 6px;
+    }
+     .position-box {
+        padding: 5px 17px;
+        left: 16px;
+        bottom: -14px;
+    }
+    .Marketing {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width :450px){
+    .center .different-p {
+        font-size: 6px;
+    }
+        .position img {
+        height: 103px;
+    }
+    .position-box .Main-paragraph {
+        font-size: 4px;
+    }
+    
+    .position-box {
+        padding: 5px 23px;
+        left: 15px;
+        bottom: -14px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .position-box {
+        padding: 0px 22px;
+        left: 6px;
+    }
+    .position-box .Main-paragraph {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .center h2 {
+        margin-top: 55px;
+    }
+    .center h2 {
+        font-size: 19px;
+    }
+    .position img {
+        height: 91px;
+    }
+    .position-box {
+        padding: 1px 16px;
+        left: 12px;
+        bottom: -8px;
+    }
+}
+
+
+

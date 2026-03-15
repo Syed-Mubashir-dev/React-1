@@ -1,0 +1,191 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 535px;
+  background-color: #f5f7fa;
+}
+.Left {
+  line-height: 60px;
+}
+
+.Left h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.Left span {
+  color: #4caf4f;
+}
+.line-2 {
+  color: #717171;
+  font-size: 14px;
+}
+
+.btn-2 {
+  font-family: "Poppins", sans-serif;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-2:hover {
+  background-color: #43a047;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Click Effect */
+.btn-2:active {
+  transform: scale(0.96);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Right img {
+  height: 360px;
+  animation: floatImage 5s ease-in-out infinite;
+  filter: drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.15));
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Left h1 {
+    font-size: 45px;
+  }
+  .Right img {
+    height: 310px;
+  }
+
+  .line-2 {
+    font-size: 12px;
+  }
+
+  .Left {
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Left {
+    line-height: 50px;
+  }
+
+  .Left h1 {
+    font-size: 45px;
+  }
+
+  .line-2 {
+    font-size: 12px;
+  }
+
+  .Right img {
+    height: 285px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .Left h1 {
+    font-size: 39px;
+  }
+  .Left {
+    line-height: 48px;
+  }
+  .Right img {
+    height: 221px;
+  }
+  .btn-2 {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Hero {
+    flex-wrap: wrap;
+    height: 565px;
+  }
+  .Left h1 {
+    font-size: 46px;
+    margin-top: 50px;
+  }
+  .btn-2 {
+    padding: 11px 27px;
+    font-size: 11px;
+  }
+
+  .Right img {
+    height: 245px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Left h1 {
+    font-size: 38px;
+    margin-top: 46px;
+  }
+  .Left {
+    line-height: 42px;
+  }
+  .Hero {
+    height: 630px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Left h1 {
+    font-size: 33px;
+    margin-top: 45px;
+  }
+  .line-2 {
+    font-size: 9px;
+  }
+  .Left {
+    line-height: 35px;
+  }
+  .btn-2 {
+    padding: 6px 13px;
+    font-size: 9px;
+  }
+  .Right img {
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Left h1 {
+    font-size: 29px;
+    margin-top: 35px;
+  }
+  .line-2 {
+    font-size: 8px;
+  }
+  .Left {
+    line-height: 32px;
+  }
+  .btn-2 {
+    padding: 7px 15px;
+    font-size: 7px;
+  }
+  .Right img {
+    height: 215px;
+  }
+}

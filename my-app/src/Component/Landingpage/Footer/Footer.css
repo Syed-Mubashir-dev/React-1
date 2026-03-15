@@ -1,0 +1,213 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 280px;
+  background-color: #263238;
+}
+
+.Left-5 h1{
+  color: #fff;
+  margin-bottom: 10px;
+  
+}
+.Left-5 p{
+  color: #F5F7FA;
+  font-size: 11px;
+  font-weight: 200;
+  margin-top: 8px;
+}
+
+.Right-5{
+  display: flex;
+  gap: 100px;
+}
+
+.same h3{
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.options {
+  margin-top: 5px;
+}
+
+.options li{
+  list-style: none;
+  margin-top: 5px;
+}
+
+.options li a {
+  text-decoration: none;
+  color: #F5F7FA;
+  font-size: 13px;
+  font-weight: 200;
+}
+.same input{
+  font-family: "Poppins", sans-serif;
+  padding: 11px 36px;
+  background-color: #4D4D4D;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-indent: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.same input::placeholder{
+  color: #cfcfcf;
+}
+
+.same input:focus{
+  background-color: #5a5a5a;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+
+@media only screen and (max-width:1000px){
+  .Right-5 {
+    gap: 85px;
+}
+
+.options li {
+    margin-top: 4px;
+}
+
+}
+
+@media only screen and (max-width:900px){
+  .options {
+    margin-top: 0px;
+}
+.options li a {
+    font-size: 12px;
+}
+.same input {
+    padding: 9px 14px;
+    font-size: 13px;
+    text-indent: 2px;
+}
+}
+
+
+@media only screen and (max-width :810px){
+      .options li {
+        margin-top: 0px;
+    }
+        .same input {
+        padding: 9px 11px;
+        font-size: 10px;
+        text-indent: 7px;
+    }
+}
+
+@media only screen and (max-width:720px){
+  .Right-5 {
+        gap: 45px;
+    }
+    .same h3 {
+    font-size: 16px;
+    }
+    .options li a {
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (max-width :650px){
+      .Right-5 {
+        gap: 39px;
+    }
+    .options li a {
+        font-size: 10px;
+    }
+        .same h3 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width :600px){
+      .same input {
+        padding: 8px 9px;
+        font-size: 9px;
+        text-indent: 4px;
+    }
+}
+
+@media only screen and (max-width :500px){
+  .Left-5 h1 {
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+.Left-5 p {
+    font-size: 8px;
+    margin-top: 4px;
+}
+    .Right-5 {
+        gap: 20px;
+    }
+    .same h3 {
+        font-size: 12px;
+    }
+    .Footer {
+    height: 248px;
+}
+    .options {
+        margin-top: 7px;
+    }
+        .options li {
+        margin-top: -4px;
+    }
+}
+
+@media only screen and (max-width :450px){
+  .Left-5 h1 {
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    .Right-5 {
+        gap: 15px;
+    }
+        .options li a {
+        font-size: 7px;
+    }
+        .options li {
+        margin-top: -9px;
+    }
+    .same h3 {
+        font-size: 13px;
+    }
+    .same input {
+        padding: 6px 10px;
+        font-size: 6px;
+        text-indent: 3px;
+    }
+    .Footer {
+        height: 195px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .Left-5 h1 {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+    .Left-5 p {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+    .options li a {
+        font-size: 6px;
+    }
+    .same h3 {
+        font-size: 10px;
+    }
+    .Right-5 {
+        gap: 22px;
+    }
+}

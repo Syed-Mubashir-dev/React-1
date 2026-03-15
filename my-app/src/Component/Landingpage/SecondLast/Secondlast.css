@@ -1,0 +1,101 @@
+.secondlast{
+  height: 400px; 
+  align-content: center;
+  text-align: center;
+}
+
+.secondlast h1 {
+  font-size: 3.5rem;
+  color: #263238;
+  font-weight: 500;
+  line-height: 62px;
+}
+
+.secondlast .btn-2{
+  margin-top: 18px;
+}
+
+@media only screen and (max-width : 1050px){
+
+ .secondlast h1 {
+    font-size: 3rem;
+}
+
+}
+@media only screen and (max-width : 1000px){
+
+ .secondlast h1 {
+    font-size: 3rem;
+}
+
+}
+
+@media only screen and (max-width : 900px){
+      .secondlast h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media only screen and (max-width : 810px){
+      .secondlast h1 {
+        font-size: 2.4rem;
+    }
+        .btn-2 {
+        padding: 12px 19px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width : 650px){
+  .secondlast {
+    height: 326px;
+
+}
+.secondlast h1 {
+        font-size: 2.1rem;
+        line-height: 48px;
+    }
+    .btn-2 {
+        padding: 8px 13px;
+        font-size: 10px;
+    }
+    .secondlast .btn-2 {
+    margin-top: 12px;
+}
+}
+
+@media only screen and (max-width :500px){
+  .secondlast h1 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+        .btn-2 {
+        padding: 8px 11px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width :450px){
+    .secondlast {
+        height: 277px;
+    }
+        .secondlast h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+    .secondlast {
+        height: 229px;
+    }
+        .secondlast h1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+        .btn-2 {
+        padding: 7px 15px;
+        font-size: 7px;
+    }
+}

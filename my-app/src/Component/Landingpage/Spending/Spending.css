@@ -1,0 +1,177 @@
+.spending{
+  /* border: 2px solid black; */
+  height: 480px;
+  /* align-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.Left-2 img {
+  height: 420px;
+}
+
+.Right-2 h2{
+  color: #4D4D4D;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.Right-2 p {
+  font-size: 12px;
+  color: #717171;
+  margin-block: 17px;
+}
+
+@media only screen and (max-width :1200px){
+  .spending {
+    gap: 35px;
+}
+
+}
+
+
+@media only screen and (max-width :1050px){
+  .spending {
+      gap: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width : 1000px ){
+  .Left-2 img {
+    height: 350px;
+}
+
+.spending {
+    gap: 30px;
+}
+
+.Right-2 p {
+    font-size: 10px;
+    margin-block: 16px;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+  .Left-2 img {
+        height: 300px;
+    }
+    .spending {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width :810px ){
+  .Left-2 img {
+        height: 280px;
+    }
+    .Right-2 h2 {
+    font-size: 24px;
+}
+.Right-2 p {
+        font-size: 9px;
+    }
+    .btn-2 {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+    .spending {
+        gap: 7px;
+    }
+}
+
+@media only screen and (max-width :720px){
+  .spending {
+        gap: 0px;
+        
+    }
+    .Right-2 h2 {
+        font-size: 22px;
+    }
+        .Right-2 p {
+        /* font-size: 10px; */
+        margin-block: 10px;
+    }
+    .btn-2 {
+        padding: 8px 15px;
+        font-size: 8px;
+    }
+    .Left-2 img {
+        height: 254px;
+    }
+}
+
+
+@media only screen and (max-width :650px){
+    .Left-2 img {
+        height: 230px;
+    }
+    .Right-2 p {
+        font-size: 8px;
+    }
+        .Right-2 h2 {
+        font-size: 21px;
+    }
+        .btn-2 {
+        padding: 8px 13px;
+        font-size: 8px;
+    }
+} 
+
+@media only screen and (max-width : 600px){
+    .Right-2 p {
+        font-size: 7px;
+    }
+    .Right-2 h2 {
+        font-size: 18px;
+    }
+    .Left-2 img {
+        height: 215px;
+    }
+        .btn-2 {
+        padding: 7px 10px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .spending{
+  flex-wrap: wrap;
+  height: 536px;
+}
+    .Left-2 img {
+        height: 260px;
+    }
+        .Right-2 h2 {
+        font-size: 21px;
+    }
+    .Right-2 p {
+        font-size: 8px;
+    }
+    .btn-2 {
+        padding: 8px 13px;
+        font-size: 8px;
+    }
+}
+
+
+@media only screen and (max-width :400px){
+    .Right-2 h2 {
+        font-size: 21px;
+    }
+    .Right-2 p {
+        font-size: 7px;
+    }
+        .btn-2 {
+        padding: 7px 12px;
+        font-size: 7px;
+    }
+        .spending {
+        height: 606px;
+    }
+}
+

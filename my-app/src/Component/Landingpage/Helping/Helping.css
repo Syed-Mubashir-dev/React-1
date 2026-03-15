@@ -1,0 +1,186 @@
+.Helping{
+  height: 300px;
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Left-3 h2{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+   color: #4d4d4d;
+}
+
+.Left-3 h2 span{
+  color: #4CAF4F;
+}
+.Left-3 p{
+  font-size: 14px;
+  color:#717171;
+  margin-top: 7px;
+}
+
+/* ---------------- Right Side ----------------- */
+
+
+
+.div-1{
+  display: flex;
+  gap: 70px;
+}
+
+.pack-1{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.pack-1 img {
+  height: 35px;
+  cursor: pointer;
+
+}
+
+.box-info h4{
+  color: #4D4D4D;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.box-info p {
+  color: #717171;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width : 810px ){
+  .Left-3 h2 {
+    font-size: 26px;
+}
+.Left-3 p {
+    font-size: 12px;
+}
+.div-1 {
+    gap: 45px;
+}
+}
+
+@media only screen and (max-width : 720px){
+  .Left-3 h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .Left-3 p {
+        font-size: 10px;
+    }
+    .pack-1 img {
+    height: 24px;
+}
+    .div-1 {
+        gap: 24px;
+    }
+    .box-info h4 {
+    font-size: 14px;
+}
+    .box-info p {
+    font-size: 10px;
+}
+  .pack-1 {
+    margin-top: 13px;
+}
+}
+
+@media only screen and (max-width: 600px){
+ .Left-3 h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .Left-3 p {
+        font-size: 9px;
+    }    
+    .div-1 {
+        gap: 18px;
+    }
+    .box-info h4 {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width :500px){
+  .Left-3 h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+        .Left-3 p {
+        font-size: 8px;
+    }
+        .pack-1 img {
+        height: 21px;
+    }   
+      .box-info p {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width :450px){
+  .Left-3 h2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .div-1 {
+        gap: 15px;
+    }
+        .pack-1 img {
+        height: 18px;
+    }
+    .Left-3 p {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .Left-3 h2 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .Left-3 p {
+        font-size: 6px;
+    }
+    .box-info h4 {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width :400px){
+  .Helping{
+    flex-wrap: wrap;
+    height: 370px;;
+  }
+   .Left-3 h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .Left-3{
+          margin-top: 25px;
+    }
+    .div-1 {
+        gap: 68px;
+    }
+    .Left-3 h2 span {
+    font-size: 24px;
+}
+.pack-1 img {
+        height: 28px;
+    }
+    .pack-1 {
+        margin-top: 22px;
+        gap: 18px;
+    }
+
+    .Left-3 p {
+        font-size: 9px;
+    }
+}

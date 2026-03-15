@@ -1,0 +1,126 @@
+.Parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+.Logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.Logo img {
+  height: 20px;
+}
+.Logo h2 {
+  color: #444d52;
+}
+
+.Options {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.Options li a {
+  position: relative;
+  color: #4d4d4d;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+/* underline animation */
+.Options li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #4caf4f; /* green accent */
+  transition: width 0.3s ease;
+}
+
+.Options li a:hover {
+  color: #4caf4f;
+}
+
+.Options li a:hover::after {
+  width: 100%;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #80c181, #26962b);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+/* Hover Effect */
+.btn:hover {
+  background-color: #43a047;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 1000px) {
+  .Options {
+    gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .Options {
+    gap: 16px;
+  }
+  .btn {
+    padding: 8px 22px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Parent {
+    justify-content: space-between;
+    padding-inline: 45px;
+  }
+
+  .Options {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Logo h2 {
+    font-size: 18px;
+  }
+  .Logo img {
+    height: 14px;
+  }
+  .btn {
+    padding: 5px 17px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Logo h2 {
+    font-size: 17px;
+  }
+  .Logo img {
+    height: 13px;
+  }
+  .btn {
+    padding: 5px 17px;
+    font-size: 10px;
+  }
+}

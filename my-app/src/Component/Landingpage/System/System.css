@@ -1,0 +1,155 @@
+.System{
+  height: 470px;
+  align-content: center;
+}
+
+.box-1{
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(85, 85, 85, 0.2);
+  border-radius: 10px;
+}
+.box-1 h2{
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.box-1 p {
+  font-size: 13px;
+  margin-top: 5px;
+   color: #89939E;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  gap: 45px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boxes .box-1 {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.boxes .box-1:hover {
+    transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+@media only screen and (max-width :1050px){
+  .boxes {
+    gap: 30px;
+}
+}
+
+@media only screen and (max-width : 1000px){
+
+  
+.boxes {
+    gap: 0px;
+}
+
+.boxes div {
+    padding: 24px;
+}
+
+.box-1 h2 {
+    font-size: 19px;
+}
+
+.box-1 p {
+    font-size: 12px;
+
+}
+}
+
+@media only screen and (max-width : 950px){
+      .box-1 p {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width : 810px){
+  .box-1 p {
+        font-size: 8px;
+    }
+    .box-1 h2 {
+        font-size: 16px;
+    }
+    .System {
+    height: 400px;
+}
+}
+
+@media only screen and (max-width :720px){
+  .center h2 {
+        font-size: 24px;
+    }
+    .center p {
+    font-size: 12px;
+}
+.boxes {
+    flex-wrap: wrap;
+}
+    .System {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+      .center h2 {
+        font-size: 22px;
+    }
+    .center p {
+        font-size: 11px;
+    }
+
+      .System {
+    height: 950px;
+    }
+    .boxes div {
+      width: 99%;
+    }
+    .boxes .box-1 {
+      padding: 20px;
+    }
+    .box-1 p {
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width){
+  .System {
+        height: 890px;
+    }
+   .boxes div {
+        width: 98%;
+    }
+}
+
+
+@media only screen and (max-width :400px){
+  .center h2 {
+        font-size: 18px;
+    }
+    .center p {
+        font-size: 10px;
+    }
+    .box-1 p {
+        font-size: 10px;
+    }
+        .box-1 h2 {
+        font-size: 14px;
+    }
+        .System {
+        height: 885px;
+    }
+}
