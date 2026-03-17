@@ -190,6 +190,11 @@
         gap: 45px;
     }
 }
+@media only screen and (max-width:415px){
+  .marquee-content {
+        gap: 42px;
+    }
+}
 
 @media only screen and (max-width:400px){
       .marquee-content {
