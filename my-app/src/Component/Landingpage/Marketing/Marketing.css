@@ -237,9 +237,9 @@
     .position img {
         height: 91px;
     }
-    .position-box {
-        padding: 1px 16px;
-        left: 12px;
+     .position-box {
+        padding: 0px 13px;
+        left: 9px;
         bottom: -8px;
     }
 }
