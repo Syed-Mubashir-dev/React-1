@@ -70,9 +70,9 @@
 
 
 @media only screen and (max-width:1000px){
-  .Right-5 {
-    gap: 85px;
-}
+ .Right-5 {
+        gap: 50px;
+    }
 
 .options li {
     margin-top: 4px;
