@@ -128,7 +128,7 @@
     }
 }
 
-@media only screen and (max-width){
+@media only screen and (max-width :450px){
   .System {
         height: 890px;
     }
