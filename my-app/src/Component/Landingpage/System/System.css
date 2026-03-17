@@ -1,5 +1,5 @@
 .System{
-  height: 470px;
+  height: 560px;
   align-content: center;
 }
 
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 65px;
   gap: 45px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
