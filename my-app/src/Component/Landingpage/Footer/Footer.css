@@ -13,9 +13,9 @@
 }
 .Left-5 p{
   color: #F5F7FA;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 200;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .Right-5{
@@ -209,5 +209,36 @@
     }
     .Right-5 {
         gap: 22px;
+    }
+}
+
+@media only screen and (max-width :375px){
+    .Left-5 h1 {
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+        .Left-5 p {
+        font-size: 6px;
+        margin-top: 3px;
+    }
+        .Right-5 {
+        gap: 15px;
+    }
+    .options li {
+        margin-top: -10px;
+    }
+    .position-box {
+        padding: 1px 9px;
+        left: 11px;
+        bottom: -8px;
+    }
+    .position-box p {
+        font-size: 5px;
+    }
+    .position-box p {
+    margin-top: 6px;
+}
+.position img {
+        height: 88px;
     }
 }
