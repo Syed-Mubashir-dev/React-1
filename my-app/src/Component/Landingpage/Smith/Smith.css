@@ -42,7 +42,7 @@
 
 .Pictures img {
   height: 25px; 
-  margin-bottom: 20px;
+  margin-bottom: 13px;
   cursor: pointer;
   margin-top: 5px;
 }
@@ -160,6 +160,26 @@
         .Pictures img {
         height: 11px;
     }
+}
+@media only screen and (max-width:450px){
+        .Smith {
+        flex-wrap: wrap;
+        gap: 29px;
+        height: 500px;
+    }
+        .Right-4 .main-p {
+        font-size: 7px;
+    }
+        .Left-4 img {
+        height: 190px;
+        margin-top: 38px;
+    }
+    .Right-4{
+        padding-bottom: 72px;
+    }
+
+    
+
 }
 
 @media only screen and (max-width :400px){
